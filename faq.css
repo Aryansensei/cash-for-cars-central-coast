@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root {
+  --sn-primary: #393e46;
+  --sn-secondary: #fe4e2f;
+  --sn-button: #1995ad;
+}
+
+.faq-section {
+  padding: 4rem 0rem;
+}
+
+.faq-head {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInDown 1s ease-in-out;
+  text-align: center;
+}
+
+.faq-section p {
+  font-size: 18px;
+}
+
+.faq-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 10px !important;
+  border: 1px solid #00000014;
+  height: 100%;
+  color: black;
+}
+
+.faq-item .image {
+  margin-bottom: 10px;
+}
+
+.faq-item .image img {
+  width: 50%;
+  max-width: 100%;
+}
+
+.faq-item h5 {
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+}
+
+.contact-section {
+  background-color: var(--sn-primary);
+  padding: 18px 0px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* FREE QUOTE SECTION */
+.free-quote {
+  /* background-image: url(car-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+  padding: 4rem 0rem;
+  text-align: center;
+  background-color: var(--sn-secondary);
+  color: white;
+}
+
+.quote-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free-quote-btn {
+  background-color: var(--sn-button);
+  color: white;
+  text-decoration: none;
+  padding: 12px 32px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 23px;
+  border: none;
+}
